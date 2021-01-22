@@ -1,6 +1,8 @@
-import { Typography } from '@material-ui/core'
-import React from 'react'
+import { Typography } from '@material-ui/core';
+import React from 'react';
+import CustomTimeline from '../Timeline/CustomTimeline';
 
+import displayimage from '../../assets/images/displayimage.jpg';
 import './Profile.css';
 
 const Profile = () => {
@@ -12,11 +14,12 @@ const Profile = () => {
             </div>
 
             <figure className='profile_image'>
-                <img src={require('../../assets/images/displayimage.jpg')} alt='displayimage'></img>
+                <img src={displayimage} alt='displayimage'></img>
             </figure>
 
             <div className='profile_information'>
-                Insert timeline <br/>
+                <CustomTimeline>
+                </CustomTimeline><br/>
                 <button>my button</button>
             </div>
         </div>
