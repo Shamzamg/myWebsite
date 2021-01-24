@@ -8,7 +8,9 @@
 /* Header title */
 
 .timeline .timeline_header{
-    padding-top: 7px;
+    padding-top: 12px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .timeline .timeline_firstItem{
