@@ -5,6 +5,10 @@
     white-space: pre-line;
 }
 
+/* End of About me section */
+
+/* Timeline section */
+
 .section .section_timelines{
     margin-left: 20px;
 }
@@ -28,3 +32,102 @@
     color: rgb(31, 31, 31);
 }
 
+/* End of timeline section */
+
+/* Services */
+
+.service{
+    height: 100%;
+    text-align: center;
+}
+
+.service .service_title{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 35px !important;
+    text-align: center;
+}
+
+.service .service_description{
+    color: gray !important;
+    border-color: var(--main-color) !important;
+    margin-right: 5px !important;
+    text-align: center;
+}
+
+.service_icon > .MuiSvgIcon-root{
+    font-size: 46px !important;
+    margin-left: 0 !important;
+    font-weight: 300 !important;
+}
+
+/* End of services */
+
+/* Skills */
+
+.skill{
+    border-radius: 8px;
+    padding: 20px;
+
+    min-height: 186px;
+    height: 100px;
+}
+
+.skill .skill_title{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 35px !important;
+}
+
+.skill .skill_description{
+    display: flex;
+    align-items: center;
+    color: #989898 !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+}
+
+.skill .skill_description .timeline_dot{
+    border-color: var(--main-color);
+    margin-right: 5px !important;
+    padding: 2px;
+}
+
+/* End of skills */
+
+
+.section .pad_15 > .MuiGrid-item{
+    margin-bottom: 15px;
+}
+
+.section .hobbies_icon{
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.section .drawing_icon{
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+    color: rgb(216, 37, 240);
+}
+
+.section .hobbies_text{
+    font-weight: 600;
+}
+
+.section .drawing{
+    font-weight: 850;
+    font-size: 21px;
+}
+
+.language_flag{
+    transform: scale(1.6);
+    margin-right: 15px;
+    margin-left: 6px;
+}
+
+.language_text{
+    font-weight: 600;
+}

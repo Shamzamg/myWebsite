@@ -1,7 +1,15 @@
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import YouTubeIcon from '@material-ui/icons/YouTube';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import LanguageIcon from '@material-ui/icons/Language';
+import WebIcon from '@material-ui/icons/Web';
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
+
+import vroom from '../assets/images/vroom.png';
+import pic from '../assets/images/pic.png';
+import binance from '../assets/images/binance.jpg';
 
 export default {
     
@@ -13,29 +21,19 @@ export default {
     phone: '+33 7 69 64 59 61',
 
     socials: {
-        Facebook: {
-            link: '',
-            text: 'shamsFacebook',
-            icon: <FacebookIcon />
-        },
-        Twitter: {
-            link: 'https://twitter.com/ChiraiiTv',
-            text: 'shamsTwitter',
-            icon: <TwitterIcon />
-        },
         Github: {
-            link: '',
-            text: 'shamsGitHub',
-            icon: <LinkedInIcon />
+            link: 'https://github.com/Shamzamg',
+            text: 'redirection',
+            icon: <GitHubIcon />
         },
         Linkedin: {
-            link: '',
-            text: 'shamsLinkedIn',
-            icon: <GitHubIcon />
+            link: 'https://www.linkedin.com/in/shamsdine-ziani-75a97b151/',
+            text: 'redirection',
+            icon: <LinkedInIcon />
         },
     },
 
-    aboutme: 'I am currently a student blablablaaaaaaaaaaaa \n \n Yoooooo',
+    aboutme: 'I am currently studying computer science at Polytech Lyon in my third year (graduation in 2023). \n  \n I am fascinated by data sciences and looking to learn more during an internship starting in August 2021 for a duration of 6 months.\n I have done many projects during the past years in which i developed an analytic mind and a general knowledge of most of the computer languages. ',
 
     works: [
         {
@@ -60,6 +58,109 @@ export default {
             title: 'Preparatory classes',
             date: 'SEPTEMBER 2017 - JUNE 2018',
             description: 'A year undergraduate intensive course in mathematics and physics'
+        }
+    ],
+
+    services: [
+        {
+            title: 'Web Development',
+            description: 'I made my personal website with React',
+            icon: <WebIcon />
+        },
+        {
+            title: 'Branding Identity',
+            description: 'I made my personal website with React',
+            icon: <AssignmentIndIcon />
+        },
+        {
+            title: 'Data analysis',
+            description: 'I had R classes and a light knowledge in Python',
+            icon: <WebIcon />
+        }
+    ],
+
+    skills: [
+        {
+            title: 'FRONT-END',
+            description: [
+                'ReactJS',
+                'Javascript',
+                'Bootstrap',
+                'Material UI'
+            ]
+        },
+        {
+            title: 'BACK-END',
+            description: [
+                'NodeJS',
+                'C# ASP.Core',
+                'Python',
+                'PHP'
+            ]
+        },
+        {
+            title: 'DATABASES',
+            description: [
+                'MySQL',
+                'Oracle'
+            ]
+        },
+        {
+            title: 'WORK CONTROL',
+            description: [
+                'Git',
+                'Agile',
+                'UML'
+            ]
+        }
+    ],
+
+    contactinformation: [
+        {
+            title: 'Adress',
+            info: '7 rue Dedieu, 69100 VILLEURBANNE'
+        },
+        {
+            title: 'Phone',
+            info: '+33 7 69 64 59 61'
+        },
+        {
+            title: 'Email',
+            info: 'shamsdine.ziani@etu.univ-lyon1.fr'
+        }
+    ],
+
+    projects: [
+        {
+            tag: 'PHP',
+            image: pic,
+            title: 'mini-Pinterest',
+            caption: 'Users can share pictures online',
+            description: 'Pic is a university project made in 2019 in which people can share GIFs or images. Users can register and login, edit their profile and view other profiles. Each picture have a description and an associated theme. ',
+            links: [
+                {link: 'https://github.com/Shamzamg/mini-Pinterest', icon: <GitHubIcon />},
+                {link: 'http://picsharegz.myartsonline.com/', icon: <LanguageIcon />}
+            ]
+        },
+        {
+            tag: 'Python',
+            image: binance,
+            title: 'Crypto pump',
+            caption: 'Place an order fast based on a Telegram message',
+            description: 'There are Telegram groups that pump cryptocurrency at a given hour. The program runs and parse the message of the group to get the cryptocurrency. It auto buy and sell the given amount in BTC and sell with the risk chosen.',
+            links: [
+                {link: 'https://github.com/Shamzamg/BinancePump/', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'C# ASP Core',
+            image: vroom,
+            title: 'Vroom',
+            caption: 'Book a car online',
+            description: 'This is a university project made with ASP .Net Core using MVC. It has a map with markers that shows all the cars available and allow user to book the car they want. Every data comes from the database.',
+            links: [
+                {link: 'https://github.com/Shamzamg/AutolibASPCore', icon: <GitHubIcon />}
+            ]
         }
     ]
 

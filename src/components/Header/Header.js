@@ -33,13 +33,16 @@ const Header = (props) => {
                     <Nav className='header_left'>
                         <Nav.Link as={NavLink} to='/' className={pathName == '/' ? 'header_link_active' : 'header_link'}>Resume</Nav.Link>
                         <Nav.Link as={NavLink} to='/Portfolio' className={pathName == '/Portfolio' ? 'header_link_active' : 'header_link'}>Portfolio</Nav.Link>
+                        <Nav.Link as={NavLink} to='/Contact' className={pathName == '/Contact' ? 'header_link_active' : 'header_link'}>Contact</Nav.Link>
                     </Nav>
 
                     <div className='header_right'>
                         {Object.keys(resumeData.socials).map(key => (
                             <a href={resumeData.socials[key].link} target='_blank'>{resumeData.socials[key].icon}</a>
                         ))}
-                        <CustomButton text={'Contact me'} icon={<TelegramIcon />}/>
+                        <a href='/Contact' style={{all: 'unset'}}>
+                            <CustomButton text={'Contact me'} icon={<TelegramIcon />}/>
+                        </a>
                     </div>
                 </Navbar.Collapse>
             </Navbar>

@@ -1,0 +1,42 @@
+/* About me section */
+
+.aboutme_text{
+    line-height: 22px;
+    white-space: pre-line;
+}
+
+/* End of About me section */
+
+.section_contact{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.section .section_contact{
+    padding-right: 50px;
+}
+
+
+/* Map css */
+
+.leaflet-container {  width: 95%;  height: 700px; }
+
+/* End of map css */
+
+.custom_btn{
+    background-color: var(--main-color) !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border: 0 !important;
+    border-radius: 50px !important;
+    padding: 1px 12px !important;
+    line-height: 35px !important;
+    min-width: 100px !important;
+    outline: none !important;
+}
+
+.nostyle{
+    all: none;
+    margin: 0;
+    padding: 0;
+}

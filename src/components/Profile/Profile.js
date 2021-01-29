@@ -11,6 +11,7 @@ import resumeData from '../../utils/resumeData';
 import displayimage from '../../assets/images/displayimage.jpg';
 import CustomButton from '../Button/Button'
 import './Profile.css';
+import CV from '../../assets/CV/CV.pdf';
 
 const CustomTimelineItem = ({title, text, link}) => (
     <TimelineItem>
@@ -48,7 +49,9 @@ const Profile = () => {
                     ))}
                 </CustomTimeline><br/>
                 <div className='downloadcv_button'>
-                    <CustomButton text={'Download CV'} icon={<GetAppIcon />} />
+                    <a href={CV} style={{all: 'unset'}} download='ZIANI_Shamsdine_CV.pdf'>
+                        <CustomButton text={'Download CV'} icon={<GetAppIcon />} />
+                    </a>
                 </div>
             </div>
         </div>
