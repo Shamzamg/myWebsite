@@ -34,7 +34,7 @@ export default {
         },
     },
 
-    aboutme: 'I am currently studying computer science at Polytech Lyon in my third year (graduation in 2023). \n  \n I am fascinated by data sciences and looking to learn more during an internship starting in August 2021 for a duration of 6 months to complete my engineer degree. I have done many projects during the past years in which i developed an analytic mind and a general knowledge of most computer languages.',
+    aboutme: 'I am currently studying computer science at Polytech Lyon in my third year (graduation in 2023). \n  \n I am fascinated by data science and looking to learn more during an internship starting in August 2021 for a duration of 6 months to complete my engineer degree. I have done many projects during the past years in which i developed an analytic mind and a general knowledge of most computer languages.',
 
     works: [
         {
