@@ -83,7 +83,7 @@ class Contact extends React.PureComponent {
 
                       <form onSubmit={this.handleSubmit}>
             <Grid container justify='space-between'>
-                        <Grid item xs={12} sm={5}>
+                        <Grid item className="mgR-30-xs" xs={12} sm={6}>
                               <TextField fullWidth  label={'Your name'} value={name}
                               onChange={event => {
                                 const { value } = event.target;
@@ -91,7 +91,7 @@ class Contact extends React.PureComponent {
                               }} />
                         </Grid>
 
-                        <Grid item xs={12} sm={6}>
+                        <Grid item className="mgR-30" xs={12} sm={5}>
 
                               <TextField fullWidth  label={'john.doe@gmail.com'} value={email}
                                               onChange={event => {
@@ -101,7 +101,7 @@ class Contact extends React.PureComponent {
 
                         </Grid>
 
-                        <Grid item xs={12}>
+                        <Grid item className="mgR-30" xs={12}>
                               <Field>
                           <Label style={{fontWeight: '600', marginTop: '15px'}}>Message</Label>
                           <Control>

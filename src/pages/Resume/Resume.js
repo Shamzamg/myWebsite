@@ -152,7 +152,7 @@ const Resume = () => {
                     <span class='spantitle'>aaaaaaaa.</span>
                     <Typography variant='h6' className='section_title_text'>Hobbies</Typography>
                 </Grid>
-                <Grid container justify='space-between' className='pad_15'>
+                <Grid container  className='pad_15'>
                     <Grid item xs={12} sm={6} md={3}>
                         <Typography variant='body2' className='section_title_text hobbies_text drawing'><GestureIcon className='drawing_icon'/>  <span style={{color: 'blue'}}>D</span>
                                                                                                                                         <span style={{color: 'red'}}>r</span>
@@ -163,13 +163,13 @@ const Resume = () => {
                                                                                                                                         <span style={{color: 'pink'}}>G</span>
                         </Typography>
                     </Grid>
-                    <Grid item xs={12} sm={6} md={3}>
+                    <Grid item className='mg_auto' xs={12} sm={6} md={3}>
                         <Typography variant='body2' className='section_title_text hobbies_text'><DriveEtaIcon className='hobbies_icon'/> Sports cars</Typography>
                     </Grid>
                     <Grid item xs={12} sm={6} md={3}>
                         <Typography variant='body2' className='section_title_text hobbies_text'><WatchIcon className='hobbies_icon'/> Watches</Typography>
                     </Grid>
-                    <Grid item xs={12} sm={6} md={3}>
+                    <Grid item className='mg_auto' xs={12} sm={6} md={3}>
                         <Typography variant='body2' className='section_title_text hobbies_text'><PublicIcon className='hobbies_icon'/> Japanese culture</Typography>
                     </Grid>
                 </Grid>

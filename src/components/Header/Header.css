@@ -45,3 +45,13 @@
     margin-right: 12px;
     color: black;
 }
+
+.header .navbar-toggler{
+    margin-right: 5px;
+    height: 60px !important;
+}
+
+.header .navbar-collapse {
+    padding: 15px;
+}
+

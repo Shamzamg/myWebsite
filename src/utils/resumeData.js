@@ -14,7 +14,7 @@ import binance from '../assets/images/binance.jpg';
 export default {
     
     name: 'Shamsdine ZIANI',
-    title: 'IT Engineer student',
+    title: 'CS Engineer student',
     birthday: '23th November 2000',
     email: 'shamsdine.ziani@etu.univ-lyon1.fr',
     address: '7 rue Dedieu, 69100 Villeurbanne',
@@ -33,7 +33,7 @@ export default {
         },
     },
 
-    aboutme: 'I am currently studying computer science at Polytech Lyon in my third year (graduation in 2023). \n  \n I am fascinated by data sciences and looking to learn more during an internship starting in August 2021 for a duration of 6 months.\n I have done many projects during the past years in which i developed an analytic mind and a general knowledge of most of the computer languages. ',
+    aboutme: 'I am currently studying computer science at Polytech Lyon in my third year (graduation in 2023). \n  \n I am fascinated by data sciences and looking to learn more during an internship starting in August 2021 for a duration of 6 months to complete my engineer degree. I have done many projects during the past years in which i developed an analytic mind and a general knowledge of most computer languages.',
 
     works: [
         {
@@ -64,17 +64,17 @@ export default {
     services: [
         {
             title: 'Web Development',
-            description: 'I made my personal website with React',
+            description: 'This website is made with ReactJS because it is the current leader JS framework but i would love to learn other frameworks',
             icon: <WebIcon />
         },
         {
             title: 'Branding Identity',
-            description: 'I made my personal website with React',
+            description: 'I had some dropshipping websites and i am aware of marketings techniques and the importance of branding identity',
             icon: <AssignmentIndIcon />
         },
         {
             title: 'Data analysis',
-            description: 'I had R classes and a light knowledge in Python',
+            description: 'I had R classes to modelize data and i have a light knowledge in Python and Matlab (~2 years of practice)',
             icon: <WebIcon />
         }
     ],
@@ -102,7 +102,8 @@ export default {
             title: 'DATABASES',
             description: [
                 'MySQL',
-                'Oracle'
+                'Oracle',
+                'phpMyAdmin'
             ]
         },
         {

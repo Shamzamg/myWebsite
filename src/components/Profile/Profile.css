@@ -51,6 +51,10 @@
     font-weight: 400 !important;
 }
 
+.bold{
+    font-weight: 600 !important;
+}
+
 .timelineItem_text > a{
     color: #4d8cdf !important;
     text-decoration: none;
