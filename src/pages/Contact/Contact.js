@@ -13,7 +13,7 @@ import './Contact.css';
 import { Grid, Typography, TextField} from '@material-ui/core';
 
 import resumeData from '../../utils/resumeData';
-import CustomButton from '../../components/Button/Button'
+import apiKeys from '../../utils/apiKeys'
 
 let DefaultIcon = L.icon({
     iconUrl: icon,
@@ -45,10 +45,10 @@ class Contact extends React.PureComponent {
       message: message
     };
     emailjs.send(
-      'service_iwwgtri',
-      'template_kq2lz78',
-       templateParams,
-      'user_y5p7TyXeohpuL4BH6kHM9'
+      apiKeys.service,
+      apiKeys.template,
+      templateParams,
+      apiKeys.user
     );
     alert('Your message has been sent successfully. I will contact you soon.');
     this.resetForm();
