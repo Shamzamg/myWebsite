@@ -149,7 +149,7 @@ export default {
             image: binance,
             title: 'Crypto pump',
             caption: 'Place an order fast based on a Telegram message',
-            description: 'There are Telegram groups that pump cryptocurrency at a given hour. The program runs and parse the message of the group to get the cryptocurrency. It auto buy and sell the given amount in BTC and sell with the risk chosen.',
+            description: 'This program runs and parses the message of a Telegram group to get the cryptocurrency (in a pump context). It buys and sells on Binance the given amount of BTC. The sell is made with the chosen risk.',
             links: [
                 {link: 'https://github.com/Shamzamg/BinancePump/', icon: <GitHubIcon />}
             ]
@@ -159,7 +159,7 @@ export default {
             image: vroom,
             title: 'Vroom',
             caption: 'Book a car online',
-            description: 'This is a university project made with ASP .Net Core using MVC. It has a map with markers that shows all the cars available and allow user to book the car they want. Every data comes from the database.',
+            description: 'This is a university project made with ASP .Net Core using MVC. It has a map with markers that shows all the cars available and allows the user to book the car they want. Every data comes from the database.',
             links: [
                 {link: 'https://github.com/Shamzamg/AutolibASPCore', icon: <GitHubIcon />}
             ]
@@ -169,7 +169,7 @@ export default {
             image: portfolio,
             title: 'Portfolio website',
             caption: 'Introduce yourself with a website',
-            description: 'I wanted to introduce myself and show my web-dev skills. This website do both. I use MaterialUI and the contact functionality uses EmailJS. ',
+            description: 'I wanted to introduce myself and show my frontend skills. This website do both. I use MaterialUI for the CSS and the contact functionality uses EmailJS. ',
             links: [
                 {link: 'https://github.com/Shamzamg/myWebsite', icon: <GitHubIcon />}
             ]
