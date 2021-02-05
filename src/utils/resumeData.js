@@ -10,6 +10,7 @@ import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 import vroom from '../assets/images/vroom.png';
 import pic from '../assets/images/pic.png';
 import binance from '../assets/images/binance.jpg';
+import portfolio from '../assets/images/portfolio.png';
 
 export default {
     
@@ -69,7 +70,7 @@ export default {
         },
         {
             title: 'Branding Identity',
-            description: 'I had some dropshipping websites and i am aware of marketings techniques and the importance of branding identity',
+            description: 'I had a dropshipping website and i am aware of marketing techniques and the importance of branding identity',
             icon: <AssignmentIndIcon />
         },
         {
@@ -84,7 +85,6 @@ export default {
             title: 'FRONT-END',
             description: [
                 'ReactJS',
-                'Javascript',
                 'Bootstrap',
                 'Material UI'
             ]
@@ -95,14 +95,15 @@ export default {
                 'NodeJS',
                 'C# ASP.Core',
                 'Python',
-                'PHP'
+                'PHP',
+                'Express'
             ]
         },
         {
             title: 'DATABASES',
             description: [
-                'MySQL',
                 'Oracle',
+                'MongoDB',
                 'phpMyAdmin'
             ]
         },
@@ -161,6 +162,16 @@ export default {
             description: 'This is a university project made with ASP .Net Core using MVC. It has a map with markers that shows all the cars available and allow user to book the car they want. Every data comes from the database.',
             links: [
                 {link: 'https://github.com/Shamzamg/AutolibASPCore', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'React JS',
+            image: portfolio,
+            title: 'Portfolio website',
+            caption: 'Introduce yourself with a website',
+            description: 'I wanted to introduce myself and show my web-dev skills. This website do both. I use MaterialUI and the contact functionality uses EmailJS. ',
+            links: [
+                {link: 'https://github.com/Shamzamg/myWebsite', icon: <GitHubIcon />}
             ]
         }
     ]
