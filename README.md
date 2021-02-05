@@ -3,7 +3,7 @@
 This project was created to introduce myself through a website with a friendly user-interface.
 It is made with React JS and Material UI. You have to set your own API keys to use EmailJS if you want to be contacted.
 
-It is hosted with Heroku if you want to test it at: [www.shamsdine-ziani.fr](www.shamsdine-ziani.fr)
+It is hosted with Heroku if you want to test it at: [http://shamsdine-ziani.fr](www.shamsdine-ziani.fr)
 
 ## Available Scripts
 
