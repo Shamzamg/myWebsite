@@ -138,7 +138,7 @@ export default {
             image: pic,
             title: 'mini-Pinterest',
             caption: 'Users can share pictures online',
-            description: 'Pic is a university project made in 2019 in which people can share GIFs or images. Users can register and login, edit their profile and view other profiles. Each picture have a description and an associated theme. ',
+            description: 'Pic is a university project made in 2019 in which people can share GIFs or images. Users can register and login, edit their profiles and view others profiles. Each picture has a description and an associated theme. ',
             links: [
                 {link: 'https://github.com/Shamzamg/mini-Pinterest', icon: <GitHubIcon />},
                 {link: 'http://picsharegz.myartsonline.com/', icon: <LanguageIcon />}
@@ -149,7 +149,7 @@ export default {
             image: binance,
             title: 'Crypto pump',
             caption: 'Place an order fast based on a Telegram message',
-            description: 'This program runs and parses the message of a Telegram group to get the cryptocurrency (in a pump context). It buys and sells on Binance the given amount of BTC. The sell is made with the chosen risk.',
+            description: 'This program runs and parses the message of a Telegram group to get the cryptocurrency (in a pump & dump context). It buys and sells on Binance the given amount of BTC. The sell is made with the chosen risk.',
             links: [
                 {link: 'https://github.com/Shamzamg/BinancePump/', icon: <GitHubIcon />}
             ]
