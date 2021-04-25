@@ -132,7 +132,7 @@ class Contact extends React.PureComponent {
                 <div class='top_20'>
                     {resumeData.contactinformation.map(information => (
                         <>
-                            <Typography>{information.title}</Typography>
+                            <Typography className='bold'>{information.title}:</Typography>
                             <span>{information.info}</span>
                         </>
                     ))}

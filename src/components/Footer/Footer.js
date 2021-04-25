@@ -9,13 +9,12 @@ const Footer = () => {
         <div className='footer container_shadow'>
             <div className='footer_left'>
                 <Typography className='footer_name'>
-                    {resumeData.name}.
+                    {resumeData.name} - 2021
                 </Typography>
             </div>
             <div className='footer_right'>
                 <Typography className='footer_copyright'>
                     Designed and developed by <a>ZIANI Shamsdine</a> <br/>
-                    Inspired from <a href='https://themeforest.net/user/tavonline' targer='_blank'>Tavonline</a>.
                 </Typography>
             </div>
 

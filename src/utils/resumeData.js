@@ -24,17 +24,17 @@ export default {
     socials: {
         Github: {
             link: 'https://github.com/Shamzamg',
-            text: 'redirection',
+            text: 'Github',
             icon: <GitHubIcon />
         },
-        Linkedin: {
+        LinkedIn: {
             link: 'https://www.linkedin.com/in/shamsdine-ziani-75a97b151/',
-            text: 'redirection',
+            text: 'LinkedIn',
             icon: <LinkedInIcon />
         },
     },
 
-    aboutme: 'I am currently studying computer science at Polytech Lyon in my third year (graduation in 2023). \n  \n I am fascinated by data science and looking to learn more during an internship starting in August 2021 for a duration of 6 months to complete my engineer degree. I have done many projects during the past years in which i developed an analytic mind and a general knowledge of most computer languages.',
+    aboutme: 'I am currently studying computer science at Polytech Lyon in my third year. \n  \n I am fascinated by programming and looking to learn more during an internship starting in September 2021 for a duration of 6 months to start my master degree. This internship is mandatory for me to pursue my studies. I have done many projects during the past years in which i developed an analytical mind and a general knowledge of most computer languages.',
 
     works: [
         {
@@ -65,17 +65,17 @@ export default {
     services: [
         {
             title: 'Web Development',
-            description: 'This website is made with ReactJS because it is the current leader JS framework but i would love to learn other frameworks',
+            description: 'I developed many websites during the past years and love to discover new frameworks.',
             icon: <WebIcon />
         },
         {
             title: 'Branding Identity',
-            description: 'I had a dropshipping website and i am aware of marketing techniques and the importance of branding identity',
+            description: 'I am aware of marketing techniques and the importance of branding identity for a company.',
             icon: <AssignmentIndIcon />
         },
         {
             title: 'Data analysis',
-            description: 'I had R classes to modelize data and i have a light knowledge in Python and Matlab (~2 years of practice)',
+            description: 'I had R classes through which I learned to modelize data and I have a good knowledge in Python and Matlab.',
             icon: <WebIcon />
         }
     ],
@@ -157,7 +157,7 @@ export default {
         {
             tag: 'C# ASP Core',
             image: vroom,
-            title: 'Vroom',
+            title: 'Autolib',
             caption: 'Book a car online',
             description: 'This is a university project made with ASP .Net Core using MVC. It has a map with markers that shows all the cars available and allows the user to book the car they want. Every data comes from the database.',
             links: [

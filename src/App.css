@@ -56,7 +56,9 @@
   }
 }
 
-
+.bold{
+  font-weight: bold;
+}
 
 .main_content{
   background-color: white;
