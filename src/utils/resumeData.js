@@ -153,7 +153,8 @@ export default {
             caption: 'Fit boxes in a container in the smartest way',
             description: 'This project allows users to fit boxes in a container recursively in the best way. It is an NP-problem.',
             links: [
-                {link: 'https://github.com/Shamzamg/3DBinPacking', icon: <GitHubIcon />}
+                {link: 'https://github.com/Shamzamg/3DBinPacking', icon: <GitHubIcon />},
+                {link: 'https://hidden-ocean-77913.herokuapp.com/', icon: <LanguageIcon />}
             ]
         },
         {
