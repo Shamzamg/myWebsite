@@ -11,6 +11,8 @@ import vroom from '../assets/images/vroom.png';
 import pic from '../assets/images/pic.png';
 import binance from '../assets/images/binance.jpg';
 import portfolio from '../assets/images/portfolio.png';
+import binpacking from '../assets/images/binpacking.png';
+import gyromite from '../assets/images/gyromite.png';
 
 export default {
     
@@ -34,7 +36,7 @@ export default {
         },
     },
 
-    aboutme: 'I am currently studying computer science at Polytech Lyon in my third year. \n  \n I am fascinated by programming and looking to learn more during an internship starting in September 2021 for a duration of 6 months to start my master degree. This internship is mandatory for me to pursue my studies. I have done many projects during the past years in which i developed an analytical mind and a general knowledge of most computer languages.',
+    aboutme: 'I am currently studying computer science at Polytech Lyon in my third year. \n  \n I am fascinated by information technology and looking to learn more during an internship starting in September 2021 for a duration of 6 months to start my masters degree. I have done many projects during the past years in which I developed an analytical mind and a general knowledge of most computer languages.',
 
     works: [
         {
@@ -142,6 +144,26 @@ export default {
             links: [
                 {link: 'https://github.com/Shamzamg/mini-Pinterest', icon: <GitHubIcon />},
                 {link: 'http://picsharegz.myartsonline.com/', icon: <LanguageIcon />}
+            ]
+        },
+        {
+            tag: 'React JS',
+            image: binpacking,
+            title: '3DBinPacking',
+            caption: 'Fit boxes in a container in the smartest way',
+            description: 'This project allows users to fit boxes in a container recursively in the best way. It is an NP-problem.',
+            links: [
+                {link: 'https://github.com/Shamzamg/3DBinPacking', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'Java',
+            image: gyromite,
+            title: 'Gyromite',
+            caption: 'Copy of the 1985 Nintendo Gyromite done in Java',
+            description: 'You control the professor Hector and have to collect all the radishes under the given time. There are multiple levels to finish but be careful: a collision with a Smick could be fatal ...',
+            links: [
+                {link: 'https://github.com/Shamzamg/Gyromite', icon: <GitHubIcon />}
             ]
         },
         {
