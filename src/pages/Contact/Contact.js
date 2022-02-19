@@ -3,7 +3,7 @@ import * as emailjs from 'emailjs-com';
 
 import L from 'leaflet';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-import { Field, Label, Control, Input, Icon, Button, Textarea, Notification } from 'rbx';
+import { Field, Label, Control, Button } from 'rbx';
 
 import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';

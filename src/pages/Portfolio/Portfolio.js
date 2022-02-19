@@ -6,22 +6,7 @@ import resumeData from '../../utils/resumeData'
 const Portfolio = () => {
 
     const [tabValue, setTabValue] = useState("All");
-    const [projectDialog, setProjectDialog] = useState(false);
-
-    const ProjectDialog = () => (
-        <Dialog open={projectDialog} onClose={() => setProjectDialog(false)}>
-            <DialogTitle onClose={() => setProjectDialog(false)}>{projectDialog.title}</DialogTitle>
-            <img src='' alt='' />
-            <DialogContent>
-                {projectDialog.description}
-            </DialogContent>
-            <DialogActions>
-                {projectDialog?.links.map(link => (
-                    <a href={link.link} target='_blank'>{link.icon}</a>
-                ))}
-            </DialogActions>
-        </Dialog>
-    )
+    const [projectDialog, setProjectDialog] = useState("");
 
     return (
         <Grid container spacing={1} className='section pad_30'>
@@ -34,10 +19,10 @@ const Portfolio = () => {
             {/* Tabs */}
             <Grid item xs={12}>
                 <Tabs value={tabValue} indicatorColor='white' className='customTabs' onChange={(event, newValue) => setTabValue(newValue)}>
-                    <Tab label='All' value='All' className={tabValue == 'All' ? 'customTabs_item active' : 'customTabs_item'} />
+                    <Tab label='All' value='All' className={tabValue === 'All' ? 'customTabs_item active' : 'customTabs_item'} />
 
                     {[...new Set(resumeData.projects.map(item => item.tag))].map(tag => (
-                        <Tab label={tag} value={tag} className={tabValue == tag ? 'customTabs_item active' : 'customTabs_item'}/>
+                        <Tab label={tag} value={tag} className={tabValue === tag ? 'customTabs_item active' : 'customTabs_item'}/>
                     ))}
                 </Tabs>
             </Grid>
@@ -47,7 +32,7 @@ const Portfolio = () => {
                 <Grid container spacing={3}>
                     {resumeData.projects.map((project) => (
                         <>
-                            {tabValue == project.tag || tabValue == 'All' ? (     
+                            {tabValue === project.tag || tabValue === 'All' ? (     
                             <Grid item xs={12} sm={6} md={4}>
                                 <Grow in timeout={1000}>
                                     <Card className='customCard' onClick={() => setProjectDialog(project)}>
@@ -75,7 +60,7 @@ const Portfolio = () => {
                 </DialogContent>
                 <DialogActions className='projectDialog_actions'>
                     {projectDialog?.links?.map(link => (
-                        <a href={link.link} target='_blank' className='projectDialog_icon'>{link.icon}</a>
+                        <a href={link.link} target='_blank' rel="noreferrer" className='projectDialog_icon'>{link.icon}</a>
                     ))}
                 </DialogActions>
             </Dialog>

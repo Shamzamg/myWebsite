@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className='footer_right'>
                 <Typography className='footer_copyright'>
-                    Designed and developed by <a>ZIANI Shamsdine</a> <br/>
+                    Designed and developed by <a href="/#">ZIANI Shamsdine</a> <br/>
                 </Typography>
             </div>
 

@@ -1,7 +1,4 @@
-import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import YouTubeIcon from '@material-ui/icons/YouTube';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LanguageIcon from '@material-ui/icons/Language';
 import WebIcon from '@material-ui/icons/Web';
@@ -14,8 +11,7 @@ import portfolio from '../assets/images/portfolio.png';
 import binpacking from '../assets/images/binpacking.png';
 import gyromite from '../assets/images/gyromite.png';
 
-export default {
-    
+const resumeData = {
     name: 'Shamsdine ZIANI',
     title: 'CS Engineer student',
     birthday: '23th November 2000',
@@ -199,5 +195,6 @@ export default {
             ]
         }
     ]
-
 }
+
+export default resumeData;
