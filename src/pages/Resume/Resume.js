@@ -12,6 +12,7 @@ import GestureIcon from '@material-ui/icons/Gesture';
 import DriveEtaIcon from '@material-ui/icons/DriveEta';
 import PublicIcon from '@material-ui/icons/Public';
 import WatchIcon from '@material-ui/icons/Watch';
+import LinkIcon from '@material-ui/icons/Link';
 
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
@@ -130,7 +131,7 @@ const Resume = () => {
                 <Grid container justify='space-between' className='pad_15'>
                     <Grid item xs={5}>
                     <ReactCountryFlag className='language_flag' countryCode="GB" title="United States" svg />
-                        <span class='language_text'>English (TOEIC around 900)</span>
+                        <span class='language_text'>English (TOEIC ~900)</span>
                         <StyledLinearProgress className='top_15' variant="determinate" value={90} />
                     </Grid>
                     <Grid item xs={5}>
@@ -167,7 +168,7 @@ const Resume = () => {
                         <Typography variant='body2' className='section_title_text hobbies_text'><DriveEtaIcon className='hobbies_icon'/> Sports cars</Typography>
                     </Grid>
                     <Grid item xs={12} sm={6} md={3}>
-                        <Typography variant='body2' className='section_title_text hobbies_text'><WatchIcon className='hobbies_icon'/> Watches</Typography>
+                        <Typography variant='body2' className='section_title_text hobbies_text'><LinkIcon className='hobbies_icon'/> Blockchain</Typography>
                     </Grid>
                     <Grid item className='mg_auto' xs={12} sm={6} md={3}>
                         <Typography variant='body2' className='section_title_text hobbies_text'><PublicIcon className='hobbies_icon'/> Japanese culture</Typography>

@@ -20,7 +20,7 @@ export default {
     title: 'CS Engineer student',
     birthday: '23th November 2000',
     email: 'shamsdine.ziani@etu.univ-lyon1.fr',
-    address: '7 rue Dedieu, 69100 Villeurbanne',
+    address: '19 rue Willy Brandt, 69100 Villeurbanne',
     phone: '+33 7 69 64 59 61',
 
     socials: {
@@ -36,7 +36,7 @@ export default {
         },
     },
 
-    aboutme: 'I am currently studying computer science at Polytech Lyon in my third year. \n  \n I am fascinated by information technology and looking to learn more during an internship starting in September 2021 for a duration of 6 months to start my masters degree. I have done many projects during the past years in which I developed an analytical mind and a general knowledge of most computer languages.',
+    aboutme: 'I am currently studying computer science at Polytech Lyon in the first year of my masters degree. \n  \n I am fascinated by information technology and blockchain. I am looking to learn more during an internship starting in February 2023 for a duration of 6 months. I have done many projects during the past years through which I developed an analytical mind and a general knowledge of most computer languages.',
 
     works: [
         {
@@ -45,9 +45,9 @@ export default {
             description: 'Helping highschool students doing their homeworks, mainly in mathematics.'
         },
         {
-            title: "Employee, McDonald's",
-            date: 'JUNE 2019 - AUGUST 2019',
-            description: 'Understanding the hard work as an employee on the field to be a better manager.'
+            title: "Intern, Credit Agricole",
+            date: 'SEPTEMBER 2021 - FEBRUARY 2022',
+            description: 'Full stack development of applications for the different units of the company.'
         }
     ],
 
@@ -55,12 +55,12 @@ export default {
         {
             title: 'Computer science engineer, Polytech Lyon',
             date: 'SEPTEMBER 2018 - JUNE 2023',
-            description: 'Studying maths and learning general programming skills'
+            description: 'Studying maths and learning general programming skills.'
         },
         {
             title: 'Preparatory classes',
             date: 'SEPTEMBER 2017 - JUNE 2018',
-            description: 'A year undergraduate intensive course in mathematics and physics'
+            description: 'A year undergraduate intensive course in mathematics and physics.'
         }
     ],
 
@@ -105,6 +105,7 @@ export default {
             title: 'DATABASES',
             description: [
                 'Oracle',
+                'SQL Server',
                 'MongoDB',
                 'phpMyAdmin'
             ]

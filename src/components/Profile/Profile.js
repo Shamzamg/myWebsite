@@ -50,7 +50,7 @@ const Profile = () => {
                 </CustomTimeline><br/>
                 <div className='downloadcv_button'>
                     <a href={CV} style={{all: 'unset'}} download='ZIANI_Shamsdine_Resume.pdf'>
-                        <CustomButton text={'Download CV'} icon={<GetAppIcon />} />
+                        <CustomButton text={'Get my Resume'} icon={<GetAppIcon />} />
                     </a>
                 </div>
             </div>
